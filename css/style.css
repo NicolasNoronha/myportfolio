@@ -1,0 +1,241 @@
+
+/*fonte externa*/
+@font-face {
+  font-family: fortnite;
+  src: url(../font/Burbank\ Big\ Condensed\ Black.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Cabeçalho*/
+body {
+	
+  font-family:fortnite ;
+  background: black;
+}
+.container{
+  width: 70%;
+  margin: 1rem;
+}
+.logo-img{
+  width:9rem;
+  padding: 10px;
+  margin-left: 170px;
+}
+.cabecalhoPrincipal{
+  background-color: rgb(0, 0, 0);
+  padding:  20px 0;
+}
+.menu-nav{
+  padding: 10px;
+	/*margin-bottom: 10px;*/
+	color: #ffffff;
+	text-decoration: none;
+	transition: .5s;
+  margin: 0 5px 0;
+  font-size: 25px;
+  margin-top: 32px;
+}
+
+.icon-menu{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 240px;
+  margin-top: -115px;
+  
+}
+
+.menuPrincipal{
+  display: flex;
+  }
+.cabecalhoPrincipal .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+span img{
+  width: 1.188rem;
+  height: auto;
+  margin-top: -6px;
+  margin-right: 1.25rem;
+  filter: var(--svg-color);
+}
+.logo-img{
+  border-radius: 50%;
+}
+.sobre{
+  width: 32.625rem;
+  margin-top: 15.1875rem;
+  font-size: 40px;
+  margin-left: 15rem;
+  color: #ffffff;
+}
+.cv{
+  width: 9.625rem;
+  height: 2.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.563rem;
+  margin-left: 25.563rem;
+  font-size: 1.788rem;
+  border-radius: 0.438rem;
+  font-family: fortnite;
+  background: chartreuse;
+  cursor: pointer;
+
+}
+/*Corpo da página*/
+.sub-menu{
+  position: absolute;
+  left: 45%;
+  top:100%;
+  font-size: 50px;
+  color:chartreuse;
+  
+}
+
+.sub-menu:hover{
+  color: dodgerblue;
+  transition: 0.5s;
+  transform: scale(1.3);
+
+}
+
+/* foto*/
+
+
+.quem-sou-foto{
+  background-image: url(../img/foto.png);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 51%;
+  height: 300px;
+  margin-left: 70%;
+  margin-top: 50%;
+  padding: 10rem 10rem;
+
+}
+
+.descricao-sobre{
+  
+  margin: 2rem 5rem -4rem
+  
+}
+
+.tecnologias{
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+
+
+
+.projetos{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.projetos_texto{
+  position: absolute;
+  left: 47%;
+  top:180%;
+  font-size: 50px;
+  color:chartreuse;
+}
+
+.projetos_texto:hover{
+  color: dodgerblue;
+  transition: 0.5s;
+  transform: scale(1.3);
+}
+.projeto{
+  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+
+}
+.projeto_conteudo{
+
+    padding: 1rem;
+    text-align: inherit;
+}
+
+
+
+.projeto_descricao{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  width: 315px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.botao_site{
+  background: #8d0606;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 0.5rem;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+  margin-top: 3rem;
+
+}
+
+
+.botao_cod{
+  background: #8d0606;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 0.5rem;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.projeto_imagem{
+  height: 175px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.projeto_titulo{
+  font-size: 1.4375rem;
+   color: #ffffff;
+  
+}
+
+.copyright{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contato{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: end;
+  padding: 5px;
+}
+
+footer{
+  padding: 20px 10px 10px;
+  margin-top: 100px;
+}
+
+
